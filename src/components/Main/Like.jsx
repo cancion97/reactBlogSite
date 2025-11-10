@@ -27,7 +27,9 @@ export default function LikeButtonSingleState({ init = 0 }) {
             )}
           </span>
 
-          <span className="count">{count}</span>
+          <span className="count" style={{ color: "black" }}>
+            {count}
+          </span>
         </button>
       </div>
     </>

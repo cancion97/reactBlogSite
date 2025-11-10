@@ -26,7 +26,9 @@ export default function BadButtonSingleState({ init = 0 }) {
               <img src={Thumbdown} alt="bad" />
             )}
           </span>
-          <span className="count">{count}</span>
+          <span className="count" style={{ color: "black" }}>
+            {count}
+          </span>
         </button>
       </div>
     </>

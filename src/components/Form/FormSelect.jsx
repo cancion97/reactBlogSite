@@ -24,6 +24,7 @@ export default function FormSelect() {
         id="howtoknow"
         value={form.howtoknow}
         onChange={handleForm}
+        style={{ color: "black" }}
       >
         <option value="select">--1つ選択してください--</option>
         <option value="fromfriend">友人の紹介</option>
